@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>maxwelxyz — Web3 Builder Portfolio</title>
+  <meta name="description" content="Web3 builder focused on testnets, dev tooling, and campaign automations. Portfolio, projects, and contact." />
+  <meta property="og:title" content="maxwelxyz — Web3 Builder" />
+  <meta property="og:description" content="Shipping bots, testnet flows, and community campaigns. Explore projects & contact." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://unavatar.io/x/maxwelxyz" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@maxwelxyz" />
+  <meta name="twitter:image" content="https://unavatar.io/x/maxwelxyz" />
+  <link rel="icon" href="https://unavatar.io/x/maxwelxyz">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    :root { color-scheme: light dark; }
+    .glass { backdrop-filter: blur(10px); background: rgba(255,255,255,0.08); }
+    .grad { background: radial-gradient(1200px 600px at 10% -10%, rgba(120,119,198,.25), transparent 40%),
+                         radial-gradient(900px 600px at 90% 10%, rgba(56,189,248,.25), transparent 40%),
+                         radial-gradient(1200px 900px at 50% 120%, rgba(34,197,94,.25), transparent 40%);
+    }
+    .tag { border: 1px solid rgba(255,255,255,.15); }
+    /* RGB accent */
+    .rgb-ring { position: relative; }
+    .rgb-ring::before { content:""; position:absolute; inset:-2px; border-radius: 1.2rem; padding:2px; background: linear-gradient(90deg, #ff4d4d, #3b82f6, #22c55e, #a855f7, #ff4d4d); -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0); -webkit-mask-composite: xor; mask-composite: exclude; animation: hue 8s linear infinite; }
+    @keyframes hue { to { filter: hue-rotate(360deg); } }
+    .hidden-page{ display:none; }
+    .active-link{ opacity:1 !important; }
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "maxwelxyz",
+    "alternateName": "Maxwel",
+    "url": "https://x.com/maxwelxyz",
+    "sameAs": [
+      "https://x.com/maxwelxyz",
+      "https://github.com/Bandidozx",
+      "https://discordapp.com/users/maxwellxyz"
+    ],
+    "jobTitle": "Web3 Builder",
+    "image": "https://unavatar.io/x/maxwelxyz",
+    "knowsAbout": ["Testnets", "Crypto automation", "Bots", "Campaign tooling", "Wallet flows"],
+    "worksFor": {"@type":"Organization","name":"Independent"}
+  }
+  </script>
+</head>
+<body class="bg-neutral-950 text-neutral-100 grad selection:bg-lime-300 selection:text-black">
+  <!-- NAV -->
+  <header class="sticky top-0 z-50 border-b border-white/10 bg-neutral-950/70 backdrop-blur">
+    <div class="mx-auto max-w-6xl px-4 py-3 flex items-center justify-between">
+      <a href="?page=home" class="font-mono text-sm tracking-widest uppercase">maxwelxyz</a>
+      <nav class="flex items-center gap-3 text-sm">
+        <a id="nav-home" href="?page=home" class="hover:opacity-80 opacity-70">Home</a>
+        <a id="nav-about" href="?page=about" class="hover:opacity-80 opacity-70">About</a>
+        <a id="nav-projects" href="?page=projects" class="hover:opacity-80 opacity-70">Projects</a>
+        <a id="nav-contact" href="?page=contact" class="hover:opacity-80 opacity-70">Contact</a>
+        <a href="?page=recent" class="hover:opacity-80 opacity-70">Recent on X</a>
+        <a href="https://x.com/maxwelxyz" target="_blank" rel="noopener" class="inline-flex items-center gap-2 rounded-xl px-3 py-1.5 border border-white/15 hover:border-white/30 transition">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4"><path d="M20.3 3H16.9L12.9 8.3 8.7 3H3l7.7 10.1L3.3 21h3.4l4.3-5.8 4.5 5.8h5.7L13.3 10.4 20.3 3z"/></svg>
+          <span>@maxwelxyz</span>
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HOME -->
+  <main id="page-home" class="page">
+    <section id="top" class="mx-auto max-w-6xl px-4 py-16 lg:py-24">
+      <div class="grid lg:grid-cols-2 gap-10 items-center">
+        <div>
+          <div class="inline-flex items-center gap-2 rounded-full tag px-3 py-1 text-xs text-neutral-300 mb-5 glass rgb-ring">
+            <span class="inline-block w-2 h-2 rounded-full bg-lime-400 animate-pulse"></span>
+            Open to collaborations & early testnets
+          </div>
+          <h1 class="text-4xl md:text-6xl font-semibold leading-tight">Web3 Builder & Automation Nerd</h1>
+          <p class="mt-5 text-neutral-300 max-w-xl">I ship one‑click flows for wallets, bridging, swaps, and campaign tasks. Fast prototypes, clean automations, and public goods for communities.</p>
+          <div class="mt-6 flex flex-wrap gap-3">
+            <a href="?page=contact" class="rounded-2xl bg-lime-300 text-black px-5 py-3 font-medium hover:translate-y-[-1px] transition">Work with me</a>
+            <a href="?page=projects" class="rounded-2xl px-5 py-3 border border-white/15 hover:border-white/30 transition">View projects</a>
+          </div>
+          <div class="mt-6 flex flex-wrap gap-2 text-xs">
+            <span class="tag rounded-full px-3 py-1 glass">Bots</span>
+            <span class="tag rounded-full px-3 py-1 glass">Testnets</span>
+            <span class="tag rounded-full px-3 py-1 glass">CLI Tools</span>
+            <span class="tag rounded-full px-3 py-1 glass">Node Ops</span>
+            <span class="tag rounded-full px-3 py-1 glass">Campaign / YAP</span>
+          </div>
+        </div>
+        <div class="relative">
+          <div class="absolute -inset-4 rounded-3xl bg-gradient-to-tr from-lime-300/20 via-cyan-300/10 to-purple-300/10 blur-2xl"></div>
+          <div class="relative rounded-3xl border border-white/10 glass p-6 rgb-ring">
+            <div class="aspect-video rounded-xl bg-neutral-900 grid place-items-center text-center p-6">
+              <img src="https://unavatar.io/x/maxwelxyz" alt="avatar" class="w-24 h-24 rounded-2xl mx-auto mb-3 object-cover"/>
+              <div>
+                <p class="font-mono text-xs text-neutral-400">Featured Profile</p>
+                <p class="text-lg md:text-xl font-semibold">@maxwelxyz</p>
+                <p class="text-neutral-400 mt-1">Jakarta · Web3 · Automation</p>
+              </div>
+            </div>
+            <div class="mt-4 grid grid-cols-3 gap-3 text-sm">
+              <a class="rounded-xl border border-white/10 px-4 py-3 hover:border-white/30 transition" href="https://github.com/Bandidozx" target="_blank" rel="noopener">GitHub →</a>
+              <a class="rounded-xl border border-white/10 px-4 py-3 hover:border-white/30 transition" href="https://x.com/maxwelxyz" target="_blank" rel="noopener">Twitter/X →</a>
+              <a class="rounded-xl border border-white/10 px-4 py-3 hover:border-white/30 transition" href="https://discordapp.com/users/maxwellxyz" target="_blank" rel="noopener">Discord →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- HIGHLIGHTS -->
+    <section class="mx-auto max-w-6xl px-4 py-10">
+      <div class="grid md:grid-cols-3 gap-4">
+        <div class="rounded-2xl border border-white/10 glass p-5 rgb-ring">
+          <p class="text-3xl font-semibold">20+ </p>
+          <p class="text-neutral-400">bots, scripts, and CLI tools shipped</p>
+        </div>
+        <div class="rounded-2xl border border-white/10 glass p-5 rgb-ring">
+          <p class="text-3xl font-semibold">10k+</p>
+          <p class="text-neutral-400">community actions automated</p>
+        </div>
+        <div class="rounded-2xl border border-white/10 glass p-5 rgb-ring">
+          <p class="text-3xl font-semibold">Multi‑chain</p>
+          <p class="text-neutral-400">EVM · Sui · Sol · custom testnets</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ABOUT PAGE -->
+  <section id="page-about" class="page hidden-page mx-auto max-w-6xl px-4 py-16">
+    <h2 class="text-3xl font-semibold mb-6">About</h2>
+    <div class="grid lg:grid-cols-3 gap-6">
+      <div class="lg:col-span-2 rounded-2xl border border-white/10 glass p-6 leading-relaxed rgb-ring">
+        <p class="text-neutral-300">I’m a Web3 builder from Jakarta who loves turning complex on-chain flows into one‑click experiences. I prototype fast, ship often, and focus on real utility for communities.</p>
+        <ul class="list-disc list-inside mt-4 text-neutral-300 space-y-1">
+          <li>Automation: Discord/Twitter bots, schedulers, queue workers</li>
+          <li>Wallet flows: bridging, swaps, safe key handling</li>
+          <li>Testnets & node ops: EthStorage, Irys, custom chains</li>
+        </ul>
+      </div>
+      <aside class="rounded-2xl border border-white/10 glass p-6 rgb-ring">
+        <p class="font-semibold mb-2">Profiles</p>
+        <ul class="space-y-2 text-neutral-300">
+          <li><a class="underline decoration-dotted" href="https://x.com/maxwelxyz" target="_blank">@maxwelxyz on X</a></li>
+          <li><a class="underline decoration-dotted" href="https://github.com/Bandidozx" target="_blank">GitHub: Bandidozx</a></li>
+          <li><a class="underline decoration-dotted" href="https://discordapp.com/users/maxwellxyz" target="_blank">Discord: maxwellxyz</a></li>
+        </ul>
+      </aside>
+    </div>
+  </section>
+
+  <!-- PROJECTS PAGE -->
+  <section id="page-projects" class="page hidden-page mx-auto max-w-6xl px-4 py-16">
+    <div class="flex items-end justify-between mb-6">
+      <h2 class="text-2xl md:text-3xl font-semibold">Selected Projects</h2>
+      <a href="https://x.com/maxwelxyz" target="_blank" class="text-sm text-neutral-300 hover:opacity-80">More on X →</a>
+    </div>
+    <div class="grid md:grid-cols-2 gap-6">
+      <!-- Card 1 -->
+      <article class="rounded-2xl border border-white/10 glass p-6 flex flex-col gap-3 rgb-ring">
+        <div class="flex items-center gap-2 text-xs text-neutral-300">
+          <span class="tag rounded-full px-2 py-0.5 glass">CLI</span>
+          <span class="tag rounded-full px-2 py-0.5 glass">EVM</span>
+          <span class="tag rounded-full px-2 py-0.5 glass">Bridging</span>
+        </div>
+        <h3 class="text-xl font-semibold">Giwa Bridge Helper</h3>
+        <p class="text-neutral-300">One‑click deposit/withdraw ETH with .env presets and safety checks. Built for Codespaces & VPS.</p>
+        <div class="mt-auto flex items-center gap-3 text-sm">
+          <a class="rounded-xl border border-white/10 px-4 py-2 hover:border-white/30 transition" href="#" onclick="alert('Add your repo link here')">Repo</a>
+          <a class="rounded-xl border border-white/10 px-4 py-2 hover:border-white/30 transition" href="#" onclick="alert('Add a demo link or tweet thread here')">Demo</a>
+        </div>
+      </article>
+      <!-- Card 2 -->
+      <article class="rounded-2xl border border-white/10 glass p-6 flex flex-col gap-3 rgb-ring">
+        <div class="flex items-center gap-2 text-xs text-neutral-300">
+          <span class="tag rounded-full px-2 py-0.5 glass">Automation</span>
+          <span class="tag rounded-full px-2 py-0.5 glass">Campaign</span>
+        </div>
+        <h3 class="text-xl font-semibold">YAP / Gleam Helper</h3>
+        <p class="text-neutral-300">Task runner for campaign check‑ins, referral tracking, and content templates. Safe‑mode and per‑account throttling.</p>
+        <div class="mt-auto flex items-center gap-3 text-sm">
+          <a class="rounded-xl border border-white/10 px-4 py-2 hover:border-white/30 transition" href="#" onclick="alert('Add your repo link here')">Repo</a>
+          <a class="rounded-xl border border-white/10 px-4 py-2 hover:border-white/30 transition" href="#" onclick="alert('Add a demo link or tweet thread here')">Demo</a>
+        </div>
+      </article>
+      <!-- Card 3 -->
+      <article class="rounded-2xl border border-white/10 glass p-6 flex flex-col gap-3 rgb-ring">
+        <div class="flex items-center gap-2 text-xs text-neutral-300">
+          <span class="tag rounded-full px-2 py-0.5 glass">Node</span>
+          <span class="tag rounded-full px-2 py-0.5 glass">Monitoring</span>
+        </div>
+        <h3 class="text-xl font-semibold">Testnet Ops Kit</h3>
+        <p class="text-neutral-300">Opinionated scripts for node setup, health checks, and log shipping. Focus on EthStorage, Irys, and custom chains.</p>
+        <div class="mt-auto flex items-center gap-3 text-sm">
+          <a class="rounded-xl border border-white/10 px-4 py-2 hover:border-white/30 transition" href="#" onclick="alert('Add your repo link here')">Repo</a>
+          <a class="rounded-xl border border-white/10 px-4 py-2 hover:border-white/30 transition" href="#" onclick="alert('Add a demo link or tweet thread here')">Demo</a>
+        </div>
+      </article>
+      <!-- Card 4 -->
+      <article class="rounded-2xl border border-white/10 glass p-6 flex flex-col gap-3 rgb-ring">
+        <div class="flex items-center gap-2 text-xs text-neutral-300">
+          <span class="tag rounded-full px-2 py-0.5 glass">Design</span>
+          <span class="tag rounded-full px-2 py-0.5 glass">Branding</span>
+        </div>
+        <h3 class="text-xl font-semibold">vAPP Packaging</h3>
+        <p class="text-neutral-300">Visual identity + packaging for EchoGarden / NoiseGarden / SignalSmith with sprout & waveform motifs.</p>
+        <div class="mt-auto flex items-center gap-3 text-sm">
+          <a class="rounded-xl border border-white/10 px-4 py-2 hover:border-white/30 transition" href="#" onclick="alert('Add gallery or X media link')">Gallery</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- CONTACT PAGE -->
+  <section id="page-contact" class="page hidden-page mx-auto max-w-6xl px-4 py-16">
+    <h2 class="text-2xl md:text-3xl font-semibold mb-6">Contact</h2>
+    <div class="rounded-2xl border border-white/10 glass p-6 grid md:grid-cols-2 gap-6 rgb-ring">
+      <div>
+        <p class="text-neutral-300">DMs open on <a class="underline decoration-dotted underline-offset-4 hover:opacity-80" href="https://x.com/maxwelxyz" target="_blank" rel="noopener">X/Twitter</a> and <a class="underline decoration-dotted underline-offset-4 hover:opacity-80" href="https://discordapp.com/users/maxwellxyz" target="_blank" rel="noopener">Discord</a>. For collaborations, send a brief: chain, scope, timelines.</p>
+        <ul class="mt-4 space-y-1 text-neutral-400 text-sm list-disc list-inside">
+          <li>One‑click wallet & campaign flows</li>
+          <li>Testnet support / node ops kits</li>
+          <li>Bot integrations (Discord/X)</li>
+        </ul>
+      </div>
+      <form class="grid gap-3" onsubmit="event.preventDefault(); alert('Thanks! Replace this with your form handler.');">
+        <input required placeholder="Your email" class="bg-neutral-900 border border-white/10 rounded-xl px-4 py-3 outline-none focus:border-white/30"/>
+        <textarea required rows="4" placeholder="What do you need?" class="bg-neutral-900 border border-white/10 rounded-xl px-4 py-3 outline-none focus:border-white/30"></textarea>
+        <button class="rounded-2xl bg-white text-black px-5 py-3 font-medium hover:translate-y-[-1px] transition">Send</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- RECENT ON X PAGE -->
+  <section id="page-recent" class="page hidden-page mx-auto max-w-6xl px-4 py-16">
+    <h2 class="text-2xl md:text-3xl font-semibold mb-6">Recent on X</h2>
+    <div class="rounded-2xl border border-white/10 glass p-6 rgb-ring">
+      <blockquote class="twitter-timeline" data-theme="dark" data-chrome="noheader nofooter noborders transparent" data-tweet-limit="5" data-dnt="true" data-width="100%" data-height="700" href="https://twitter.com/maxwelxyz?ref_src=twsrc%5Etfw">Tweets by @maxwelxyz</blockquote>
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      <p class="text-xs text-neutral-400 mt-3">If the embed doesn't load, <a class="underline decoration-dotted" href="https://x.com/maxwelxyz" target="_blank" rel="noopener">open on X</a>.</p>
+    </div>
+  </section>
+
+  <footer class="border-t border-white/10 py-10">
+    <div class="mx-auto max-w-6xl px-4 flex flex-col md:flex-row items-center justify-between gap-3 text-sm text-neutral-400">
+      <p>© <span id="y"></span> maxwelxyz. Built with Tailwind.</p>
+      <div class="flex items-center gap-4">
+        <a class="hover:opacity-80" href="https://x.com/maxwelxyz" target="_blank" rel="noopener">X</a>
+        <a class="hover:opacity-80" href="https://github.com/Bandidozx" target="_blank" rel="noopener">GitHub</a>
+        <a class="hover:opacity-80" href="https://discordapp.com/users/maxwellxyz" target="_blank" rel="noopener">Discord</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Simple router: ?page=home|about|projects|contact|recent
+    function showPage() {
+      const params = new URLSearchParams(location.search);
+      const page = (params.get('page') || 'home').toLowerCase();
+      document.querySelectorAll('.page').forEach(el=> el.classList.add('hidden-page'));
+      const target = document.getElementById(`page-${page}`) || document.getElementById('page-home');
+      target.classList.remove('hidden-page');
+      // nav active styling
+      ['home','about','projects','contact'].forEach(id=>{
+        const link = document.getElementById(`nav-${id}`);
+        if (!link) return;
+        if (id === page) { link.classList.add('active-link'); link.classList.remove('opacity-70'); }
+        else { link.classList.remove('active-link'); link.classList.add('opacity-70'); }
+      });
+    }
+    window.addEventListener('popstate', showPage);
+    showPage();
+  </script>
+</body>
+</html>
